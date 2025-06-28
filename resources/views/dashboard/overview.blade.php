@@ -11,4 +11,6 @@
     <section>
         <x-overview-stats />
     </section>
+
+    <x-recent-transactions />
 </x-dashboard-layout>
