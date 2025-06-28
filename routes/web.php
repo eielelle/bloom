@@ -18,3 +18,9 @@ Route::prefix('auth')->group(function () {
     })->name('auth.register');
     Route::post('/register', [UserController::class, 'register']);
 });
+
+Route::prefix('dashboard')->group(function () {
+    Route::get('/overview',function () {
+        return view('dashboard.overview');
+    })->name('dashboard.overview');
+});
