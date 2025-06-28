@@ -16,6 +16,13 @@
                 <p class="block font-bold">Password</p>
                 <input type="password" name="password" id="password" class="input input-md w-full bg-gray-300" />
             </div>
+
+            <div>
+                <label class="label">
+                    <input type="checkbox" name="remember_me" checked="checked" class="checkbox bg-gray-300" />
+                    Remember me
+                </label>
+            </div>
     
             <button type="submit" class="btn btn-primary w-full">Login</button>
         </form>
